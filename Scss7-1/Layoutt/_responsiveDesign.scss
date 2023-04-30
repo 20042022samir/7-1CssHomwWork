@@ -1,0 +1,531 @@
+@media screen and (max-width:768px){
+    header{
+        padding: 16px;
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 80%;
+            transition: 1.2s;
+            #navbar_left{
+                #logo{
+                    img{
+                        width: 128px;
+                        height: 32px;
+                    }
+                }
+                #Atags{
+                    display: none;
+                }
+            }
+            #navbar_right{
+                width: 24px;
+                height: 24px;
+                button:first-child,button:last-child{
+                    display: none;
+                }
+                button:nth-child(2){
+                    display: initial;
+                }
+            }
+        }
+    }
+    
+    #section1{
+        padding-top: 48px;
+        padding-bottom: 88px;
+        transition: 1.2s;
+        #section1Container{
+            #section1Words{
+                width: auto;
+                height: auto;
+                row-gap: 4px;
+                p:last-child{
+                  width: auto;
+                  height: 120px;
+                }
+            }
+        }
+    }
+
+    #section2{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        transition: 1.2s;
+        #section2Container{
+            width:  auto;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            padding: 0px;
+            .Section2up{
+                display: flex;
+                width: auto;
+                flex-direction: column;
+                row-gap: 24px;
+                height: auto;
+                margin: 0;
+            }
+            .section2Down{
+                display: flex;
+                width: auto;
+                flex-direction: column;
+                row-gap: 24px;
+                height: auto;
+            }
+        }
+    }
+    .card{
+        width: auto;
+        height:   auto;
+        display: flex;
+        flex-direction: column;
+        row-gap:24px;
+        padding: 24px 32px;
+        transition: 1.2s;
+        .cardUp{
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 32px;
+                height: 32px;
+            }
+        }
+        .cardDown{
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 8px;
+            p:first-child{
+                font-size: 22px;
+                line-height: 30px;
+            }
+            p:last-child{
+                width: auto;
+                height: auto;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    #section3{
+        width: 768px;
+        padding-top: 48px;
+        transition: 1.2s;
+        padding-bottom: 48px;
+        #section3Container{
+            width: auto;
+            height: auto;
+            padding: 0px;
+            #Registration{
+                padding: 0;
+                display: flex;
+                width: auto;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                row-gap: 24px;
+                .FirstWo{
+                    width: 640px;
+                    height: 74px;
+                    margin-right: 50px;
+                    column-gap: 24px;
+                    .S3left{
+                        width: 308px;
+                        height: 74px;
+                        row-gap: 8px;
+                        p{
+                            width: auto;
+                        }
+                        input{
+                            width: 308px;
+                            height: 46px;
+                        }
+                    }
+                    .S3right{
+                        width: 308px;
+                        height: 74px;
+                        row-gap: 8px;
+                        p{
+                            width: auto;
+                        }
+                        input{
+                            width: 308px;
+                            height: 46px;
+                        }
+                    }
+                }
+
+               
+                #Section3Third{
+                    width: auto;
+                    height: auto;
+                    p{
+                        font-size: 16px;
+                    }
+                    input{
+                        width: 640px;
+                        height: 70px;
+                    }
+                }
+                #Section3Fourth{
+                   p{
+                    width: 608px;
+                    text-align: left;
+                   }
+                }
+            }
+        }
+    }
+
+    #section4{
+        width: 768px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        transition: 1.2s;
+        #section4Container{
+            width: auto;
+            height: 770px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 48px;
+            #section4Left{
+                padding-left: 10px;
+                width: 704px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                row-gap:10px;
+                #Section4LeftUp{
+                    width: 704px;
+                    height: 148px;
+                    h1{
+                        width: 704px;
+                        height: 84px;
+                        line-height: 42px;
+                        letter-spacing: -1%;
+                        font-size: 32px;
+                    }
+                    p:last-child{
+                        width: 704px;
+                        height: auto;
+                    }
+                }
+                #section4Buttom{
+                    button{
+                        width: 133px;
+                        height: 46px;
+                        margin-top: 40px;
+                    }
+                }
+            }
+
+            #Section4Right{
+                img{
+                    width: 704px;
+                    height: 460px;
+                }
+            }
+        }
+    }
+
+    footer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        #lastSectionContainer{
+            width: 704px;
+            height: auto;
+            #LastSectionUp{
+                width: 704px;
+                height: auto;
+                flex-wrap: wrap;
+                display: flex;
+                flex-direction: row;
+                row-gap: 0px    ;
+                #up1{
+                    width: 448px;
+                    height: 128px;
+                    p{
+                        width: 247px;
+                        height: 72px;
+                    }
+                }
+                #up2{
+                    width: 150px;
+                    height: 180px;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 12px;
+                }
+                #up3{
+                    width: 150px;
+                    height: 180px;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 14px;
+                }
+                #up4{
+                    width: 150px;
+                    height: 180px;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 14px;
+                }
+                #up5{
+                    width: 150px;
+                    height: 144px;
+                    p:last-child{
+                        display: none;
+                    }
+                }
+            }
+
+            #LastSectionDown{
+                width: 704px;
+                height: 88px;
+                position: relative;
+                p{
+                    width: 260px;
+                    height: 20px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width:391px){
+    header{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        nav{
+            display: flex;
+            flex-direction: row;
+
+        }
+    }
+
+    #section1{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        width: 375px;
+        #section1Container{
+            #section1Words{
+                margin: auto;
+                width: 343px;
+                height: 184px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 32px;
+                p:first-child{
+                    width: auto;
+                }
+                p:last-child{
+                    width: auto;
+                    font-weight: 600;
+                    font-size: 36px;
+                    letter-spacing: -2%;
+                    line-height: 44px;
+                }
+            }
+
+        }
+    }
+
+    #section2{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        #section2Container{
+            margin-left: 10px;
+            width: 343px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            .Section2up{
+              width: 343px;
+              height: auto;
+              display: flex;
+              flex-direction: column;
+              row-gap: 16px;
+            }
+        }
+
+    }
+    .card{
+        width: 343px;
+        height: 180px;
+        padding: 16px;
+        .cardUp{
+            width: 311px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .cardDown{
+            width: 311px;
+            height: 84px;
+        }
+    }
+    .card:last-child{
+        display: none;
+    }
+
+    #section3{
+        width: 375px;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        #section3Container{
+            #Registration{
+                padding:10px 0px;
+                margin-left: 20px;
+                width: 400px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                row-gap: 16px;
+                margin: 0;
+                .FirstWo{
+                    width: auto;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    .S3left{
+                        width: 343px;
+                        height: 74px;
+                        padding-left: 14px;
+                        input{
+                            width: 320px;
+                            height: 46px;
+                        }
+                    }
+                    .S3right{
+                        width: 343px;
+                        height: 74px;
+                        input{
+                            width: 320px;
+                            height: 46px;
+                        }
+                       
+                    }
+                }
+                #Section3Third{
+                    width: auto;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 8px;
+                    input{
+                        width: 320px;
+                        height: 145px;
+                        margin-left: -14px;
+                    }
+                }
+                #Section3Fourth{
+                    width: 343px;
+                    height: 24px;
+                }
+                #Section3Button{
+                    button{
+                        width: 343px;
+                        height: 46px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    #section4{
+        width: 375px;
+        height: auto;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        #section4Container{
+          width: 343px;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          row-gap: 32px;
+          #section4Left{
+            width: 343px;
+            height: auto;
+            #Section4LeftUp{
+                width: 343px;
+                height: 308px;
+                p:first-child{
+                    width: 146px;
+                    height: 20px;
+                }
+                h1{
+                    width: 343px;
+                    height: 144px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    letter-spacing: -2%;
+                    font-size: 28px;
+                }
+                p:last-child{
+                    width: 343px;
+                    height: 120px;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+            #section4Buttom{
+                width: auto;
+                button{
+                    width: 133px;
+                    height: 46px;
+                }
+            }
+            
+          }
+          #Section4Right{
+            img{
+                width:343px;
+                height: 343px;
+            }
+        }
+
+        }
+    }
+}
+
+@media screen and (max-width:410px){
+    #section2{
+        width: 400px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        #section2Container{
+            width: 400px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            .Section2up{
+                width: 400px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+            }
+            .section2Down{
+                width: 400px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+            }
+
+        }
+    }
+}

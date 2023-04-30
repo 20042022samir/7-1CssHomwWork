@@ -1,0 +1,93 @@
+
+#navbar_right{
+    button:first-child{
+        background-color: transparent ;
+        color: #437EF7;
+        width: 60px;
+        height: 22px;
+        border: none;
+        transition: 1.2s;
+        cursor: pointer;
+        &:hover{
+          color: black;
+        }
+        display: initial;
+    }
+ 
+    button:nth-child(2){
+        display: none;
+    }
+
+    button:last-child{
+        background-color: #437EF7;
+        color: #F8F9FB;
+        width: 80px;
+        height: 46px;
+        border-radius: 6px;
+        transition: 1.2s;
+        cursor: pointer;
+        &:hover{
+            background-color: #F8F9FB;
+            color: #437EF7;
+        }
+        display: initial;
+    }
+}
+
+.cardUp{
+   button{
+    width: 118px;
+    height: 46px;
+    background-color: #FFFFFF;
+    color: black;
+    transition:0.6s;
+    border-radius: 6px;
+    border-color: #DAE0E6;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+        transform: translateY(-8px);
+        background-color: bisque;
+        color: black;
+    }
+   }
+}
+
+/*Section 3*/
+#Section3Button{
+    display: flex;
+    justify-content: start;
+    button{
+        background-color: #437EF7;
+        width: 88px;
+        height: 46px;
+        border-radius: 6px;
+        color: white;
+        transition: 1.2s;
+        cursor: pointer;
+        &:hover{
+            background-color: #A5ACBA;
+            color: pink;
+            transform: translateY(-10px) ;
+        }
+    }
+}
+
+
+/*Section4*/
+#section4Buttom{
+    button{
+        width: 133px;
+        height: 46px;
+        background-color: #437EF7;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.6s;
+        &:hover{
+            background-color: #A5ACBA;
+            color: pink;
+            transform: translateY(-10px);
+        }
+    }
+}

@@ -1,0 +1,24 @@
+//Abstracts
+@import  "./Abstarcts/mixins";
+@import "./Abstarcts/variables";
+
+//Base
+@import "./Base/reset";
+@import "./Base/typography";
+
+//Components
+@import "./component/buttons";
+
+//LayOuts
+@import "./Layoutt/header";
+@import "./Layoutt/section1";
+@import "./Layoutt/section2";
+@import "./Layoutt/section3";
+@import "./Layoutt/section4";
+@import "./Layoutt/responsiveDesign";
+@import "./Layoutt/footer";
+//Pages
+@import "./Pagess/contact";
+
+//Themes
+@import "./themes/background";
